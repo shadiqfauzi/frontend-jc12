@@ -1,0 +1,43 @@
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    background-image: url("https://i.kym-cdn.com/entries/icons/mobile/000/031/003/cover3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container{
+    padding: 20px;
+    width: 360px;
+    margin: 200px auto;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-radius: 50px;
+}
+
+h1{
+    color: white;
+}
+
+input[type="text"], input[type="password"]{
+    width: 200px;
+    height: 20px;
+    border-radius: 20px;
+    outline: none;
+    padding: 10px;
+    transition: 200ms;
+    text-align: center;
+}
+
+input[type="button"]{
+    width: 220px;
+    height: 30px;
+    outline: none;
+    border-radius: 20px;
+}
+
+input[type="text"]:focus, input[type="password"]:focus{
+    width: 250px;
+    height: 30px;
+
+}

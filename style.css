@@ -1,0 +1,27 @@
+.jancukasu {
+    background-color: red;
+    border: 10px dashed white;
+}
+
+h1{
+    /* taro transisi jangan di hover tapi di parent selector, yang artinya di selector ini tiap ada perubahan harus jalan selama 200ms */
+    transition: 200ms;
+}
+
+h1:hover{
+    color: gray;
+    size: 200px;
+}
+
+marquee{
+    font-size: 500px;
+}
+
+.button-custom {
+    background-color: black;
+    color: white;
+    border: 0px solid rgba(0, 0, 0, 0.1);
+    outline:none;
+    font-size: 100px;
+    border-radius: 50px;
+}
