@@ -1,0 +1,237 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    font-weight: 900;
+    font-size: 40px;
+    color: white
+}
+
+.navbar-container{
+    position: relative;
+    position: fixed;
+    width: 100vw;
+    z-index: 9999;
+}
+
+.navbar{
+    padding: 15px 50px;
+}
+
+.navbar-group{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-link:hover{
+    border-bottom: 0.4px solid black;
+}
+
+.jumbotron-container{
+    background-image: linear-gradient(#9DC5CB, #EBF3F6);
+    /* height: 150vh; */
+    padding-bottom: 40px;
+}
+
+.jumbotron {
+    margin: 0px 180px;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.jumbo-text-xl{
+    color: #182446;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.jumbo-text{
+    font-weight: 600;
+    font-size: 24px;
+    color: #182446;
+    margin: auto 210px;
+}
+
+.custom-btn{
+    background-color: #172345;
+    color: white;
+    border: 2px solid #172345;
+    width: 138px;
+    height: 48px;
+    padding: 7px 28px;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 150ms;
+    cursor: pointer;
+}
+
+.custom-btn:hover{
+    color: #172345;
+    background-color: white;
+}
+
+.get-started{
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    color: #324477;
+}
+
+.get-started:hover{
+    font-weight: 700;
+}
+
+#navbarId {
+    transition: 500ms;
+}
+
+.partner-logo{
+    height: 20px;
+    margin: 20px 5px;
+    color: #172345;
+
+}
+
+.partner-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 120px;
+    padding-right: 120px;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: #fdf8f5;
+}
+
+.community-favorites{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 5px;
+}
+.community-favorites p{
+    border-bottom: 2px solid #f5b4a4;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    width: 323px;
+    height: 590px;
+    margin: 9px;
+    cursor: pointer;
+}
+
+.card-image{
+    display: flex;
+    background-color: #919ea2;
+    width: 100%;
+    height: 430px;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.card-image img[name="displayGif"]{
+    display: none;
+}
+
+.card-image p{
+    display: none;
+    bottom: 0px;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(255, 255, 255, 0.7);
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.card-image p:hover{
+    color: blue;
+}
+
+.card-image button{
+    display: flex;
+    justify-content: center;
+    align-items: cener;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 72px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 5px;
+    border: none;
+    color: purple;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+.card-text{
+    padding: 19px;
+    background-color: #fdf8f5;
+}
+
+.card-text h5{
+    margin: 0;
+    font-size: 17px;
+    color: #172345;
+    font-weight: 900;
+}
+
+.card-text p {
+    font-size: 12px;
+}
+
+
+.card-text button{
+    width: 100%;
+    height: 33px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #172345;
+    margin-top: 15px;
+    transition: 100ms;
+    cursor: pointer;
+}
+
+.card-text button:hover{
+    border: 1px solid blue;
+    color: blue;
+}
